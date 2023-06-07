@@ -1,0 +1,44 @@
+23:24:11.090 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+23:24:11.235 request:
+1 > PUT https://jsonplaceholder.typicode.com/posts/70
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 54
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: jsonplaceholder.typicode.com
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/11.0.15.1)
+{"id":70,"title":"Ahmet","body":"Merhaba","userId":10}
+
+23:24:11.628 response time in milliseconds: 390,61
+1 < 200
+1 < Access-Control-Allow-Credentials: true
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 7d3bf5e3a8a31cb3-AMS
+1 < Cache-Control: no-cache
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 07 Jun 2023 21:24:11 GMT
+1 < Etag: W/"47-b5+QfxzRvn5uoF8ToX2SBkYZbXQ"
+1 < Expires: -1
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Pragma: no-cache
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=4PQdqrcVI9r06XwWXPTYfHI54ZcNhHfNwyC92W7rlb3IcNFyddEt3SsU0BvNANiR%2FpkLvVJj5C5kFGFENJuRKKY9zSMCQAdecTGZsKiypNbDRpYR9M94Xm5NGHuvLn%2BGyuYJmW2OSmQD5fSWNXk%3D"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Transfer-Encoding: chunked
+1 < Vary: Origin, Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Content-Type-Options: nosniff
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1686173095
+{
+  "id": 70,
+  "title": "Ahmet",
+  "body": "Merhaba",
+  "userId": 10
+}
+
+
+}
+
